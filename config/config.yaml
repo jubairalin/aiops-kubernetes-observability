@@ -1,0 +1,17 @@
+kubernetes:
+  cluster_name: "dev-techinea-cluster"
+  context: "dev-techinea"
+  namespace: "techinea"
+
+monitoring:
+  metrics_interval: 30  # seconds
+  logs_interval: 60     # seconds
+  retention_period: 7   # days
+
+prometheus:
+  url: "http://prometheus-server.monitoring.svc.cluster.local:9090"
+  scrape_interval: "15s"
+
+anomaly_detection:
+  threshold: 3.0        # standard deviations for anomaly detection
+  training_interval: 24 # hours

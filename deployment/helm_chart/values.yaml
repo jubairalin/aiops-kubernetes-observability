@@ -1,0 +1,19 @@
+image:
+  repository: techinea/aiops-observability
+  tag: latest
+  pullPolicy: IfNotPresent
+
+kubernetes:
+  context: dev-techinea
+  namespace: techinea
+
+prometheus:
+  url: http://prometheus-server.monitoring.svc.cluster.local:9090
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 1Gi
+  requests:
+    cpu: 100m
+    memory: 256Mi

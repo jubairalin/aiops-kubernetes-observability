@@ -1,0 +1,33 @@
+Setup Instructions
+1. Prerequisites:
+
+Kubernetes cluster with monitoring stack (Prometheus, Grafana)
+
+Python 3.8+
+
+Helm
+
+
+
+2. Install dependencies:
+
+bash
+pip install -r requirements.txt
+
+
+3.Deploy to Kubernetes:
+
+bash
+
+kubectl create namespace techinea
+
+
+cd deployment/helm_chart
+helm install aiops-observability ./deployment/helm_chart --namespace techinea
+
+4. Run locally for development:
+
+bash
+python src/main.py
+
+
