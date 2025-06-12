@@ -8,7 +8,7 @@
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+
 
 ## Features
 ✔ Real-time pod monitoring  
@@ -27,3 +27,10 @@
 1. Clone the repo
    ```bash
    git clone https://github.com/jubairalin/aiops-kubernetes-observability.git
+## Usage
+Access the dashboard at: http://<service-ip>:8050
+## Architecture
+![techinea-aiops](https://github.com/user-attachments/assets/44acd632-1461-414d-9a6e-2bc61cad32fb)
+![techinea-aiops](https://github.com/user-attachments/assets/44acd632-1461-414d-9a6e-2bc61cad32fb)
+
+![deepseek_mermaid_20250612_1bada1](https://github.com/user-attachments/assets/a1348ead-36be-4aad-9695-6f9fd2196860)
